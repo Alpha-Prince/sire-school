@@ -22,7 +22,7 @@ mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
 }
 
     return(
-     <nav className={`container ${sticky ? "dark-nav" : " "}`}>
+     <nav className={`container ${sticky ? "dark-nav" : " "} `}>
             <div className='logo'><img src={logo} alt="logo" className="logo-img" /> Edusity </div>
             <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
                  <li><Link to='home' smooth={true} offset={0} duration={500}>Home</Link></li>
