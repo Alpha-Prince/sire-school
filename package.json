@@ -1,6 +1,6 @@
 {
   "name": "sire-school",
-  "homepage": "https://Alpha-Prince.github.io/sire-school",
+  "homepage": "https://Alpha-Prince.github.io/sire-school/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,17 +10,18 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-scroll": "^1.9.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
     "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
