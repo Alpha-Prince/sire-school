@@ -6,7 +6,7 @@ import message  from '../../assets/message.jpg'
 
 const Contact = () => {
   return (
-    <div className='contact' namr='contact'>
+    <div className='contact' name='contact'>
         <div className="contact-col">
             <h3>Send us a message <img src={message} alt="" /></h3>
             <p>Fell free to reach out through our contact form or find our contact
